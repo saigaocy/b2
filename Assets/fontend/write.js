@@ -476,12 +476,12 @@
                         src = src.split("\n")
                         if(src.length > 0){
                           for (let i = 0; i < src.length; i++) {
-                            html += '<p><img src="'+src[i]+'" /></p>';
+                            html += '<p class="attachment"><img src="'+src[i]+'" /></p>';
                           }
                         }
                     }else{
                         for (let i = 0; i < this.imagePicked.length; i++) {
-                            html += '<p><img src="'+this.imagePicked[i]+'" /></p>';
+                            html += '<p class="attachment"><img src="'+this.imagePicked[i]+'" /></p>';
                         }
                     }
 
